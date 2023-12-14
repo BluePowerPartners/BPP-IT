@@ -30,7 +30,7 @@ Invoke-WebRequest -Uri $HeroImageUri -OutFile $HeroImage
 $Scenario = 'reminder' # <!-- Possible values are: reminder | short | long -->
         
 # Load Toast Notification text
-$AttributionText = "Insign.it"
+$AttributionText = "BPP IT"
 $HeaderText = "Computer Restart is needed!"
 $TitleText = "Your device has not performed a reboot the last $($Uptime.OsUptime.Days) days"
 $BodyText1 = "For performance and stability reasons we suggest a reboot at least once a week."
